@@ -1,0 +1,3 @@
+Mongodb Statistics:
+
+db.stats()

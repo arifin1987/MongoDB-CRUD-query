@@ -1,0 +1,4 @@
+delete one
+
+
+db.students.deleteOne({age:20})

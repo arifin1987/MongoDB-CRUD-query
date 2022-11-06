@@ -1,0 +1,8 @@
+Create Collection
+
+
+use databaseName
+db.createCollection("TeacherList")  //create collection
+
+db.TeacherList.drop()  //to drop collection
+

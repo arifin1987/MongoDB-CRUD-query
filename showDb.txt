@@ -1,0 +1,3 @@
+To find number of database:
+
+show dbs

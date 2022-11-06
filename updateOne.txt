@@ -1,0 +1,4 @@
+update one
+
+
+db.students.updateOne({Name:"Salam"},{$set:{age:70}})

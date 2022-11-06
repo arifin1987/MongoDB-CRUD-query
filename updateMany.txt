@@ -1,0 +1,3 @@
+update Many
+
+db.students.updateMany({age:22},{$set:{Name:"Something"}})

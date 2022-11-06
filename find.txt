@@ -1,0 +1,22 @@
+find Many with and without conditions:
+
+
+db.students.find().pretty()
+
+db.students.find({name:"karim"})
+
+db.students.find({Name:"Salam", age:34})
+
+db.students.find().limit(2)
+
+db.students.find({age:{$gte:20}})
+
+db.students.find({age:{$lte:18}})
+
+db.students.find({age:{$gt:20}})
+
+db.students.find({age:{$lt:20}})
+
+db.students.find({$or:[{Name:"Salam"},{age:22}]})
+
+db.students.find({$and:[{Name:"Barkat"},{age:22}]})

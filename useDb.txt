@@ -1,0 +1,3 @@
+to use particular database:
+
+use schools

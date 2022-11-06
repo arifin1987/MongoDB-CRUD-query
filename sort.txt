@@ -1,0 +1,4 @@
+
+db.Products.find({},{title:1}).sort({title:1})
+
+db.Products.find({},{title:1}).sort({title:-1})

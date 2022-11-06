@@ -1,0 +1,3 @@
+for mongodb help
+
+db.help()

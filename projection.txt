@@ -1,0 +1,5 @@
+
+show dbs
+use schools
+
+db.products.find({},{title:1,price:1, star:1,_id:0}) 

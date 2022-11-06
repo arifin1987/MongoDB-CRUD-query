@@ -1,0 +1,20 @@
+
+show dbs
+use schools
+
+db.products.find({},{title:1,price:1, star:1,_id:0}) 
+
+
+db.productts.find({price:{$lt:"1000"}},{price:1,category:1,_id:0})
+
+db.productts.find({price:{$gt:"1000"}},{price:1,category:1,_id:0})
+
+db.productts.find({price:{$lte:"1000"}},{price:1,category:1,_id:0})
+
+db.productts.find({price:{$gte:"1000"}},{price:1,category:1,_id:0})
+
+db.productts.find({price:{$ne:"1000"}},{price:1,category:1,_id:0})
+
+db.productts.find({price:{$in:["100","200","300"]}},{price:1,category:1,_id:0}) // In operator works as a multiple or. 
+
+db.productts.find({price:{$nin:["100","200","300"]}},{price:1,category:1,_id:0})

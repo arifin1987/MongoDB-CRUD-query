@@ -1,0 +1,4 @@
+delete many
+
+
+db.students.deleteMany({age:20})

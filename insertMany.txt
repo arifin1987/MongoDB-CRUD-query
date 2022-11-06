@@ -1,0 +1,3 @@
+Insert Many
+
+db.students.insertMany([{Name:"Abir",age:40, city:"khulna},{Name:"Shanta", age:24, city:"Rangpur"}])

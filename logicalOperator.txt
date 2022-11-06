@@ -1,0 +1,3 @@
+db.Products.find({$or[{Price:{$gt:"100"}},{stock:{$eq:yes}}]},{price:1,stock:1,_id:0})
+
+db.Products.find({$and[{Price:{$gt:"100"}},{stock:{$eq:yes}}]},{price:1,stock:1,_id:0})

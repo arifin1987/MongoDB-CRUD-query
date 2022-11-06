@@ -1,0 +1,3 @@
+to find data:
+
+db.students.findOne()
